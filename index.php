@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie-flip CRUD App</title>
+    <style>
+
+      .create-form {
+        display: none;
+      }
+    
+    </style>
 </head>
 <body>
      <div>
@@ -15,7 +22,7 @@
        <button id="edit-button">Edit Record</button>
        <button id="delete-button">Delete Record</button>
 
-       <form action="" method="POST" id="create-form">
+       <form action="" method="POST" class="create-form">
        <input type="text" placeholder="Enter movie title" name=""><br/>
        <input type="text" placeholder="Enter movie genre " name=""><br/>
        <input type="text" placeholder="Enter movie director" name=""><br/>
@@ -24,6 +31,7 @@
 
      </div>
      
+     <script src="script.js"></script>
     
 </body>
 </html>
